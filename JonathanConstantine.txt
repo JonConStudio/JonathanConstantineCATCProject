@@ -1,0 +1,350 @@
+Jonathan Constantine CATC Project
+
+Tue Dec 30 22:22:19 UTC 2025
+
+JonathanConstantineCATC
+
+x86_64
+
+Linux JonathanConstantineCATC 6.14.0-1017-azure #17~24.04.1-Ubuntu SMP Mon Dec  1 20:10:50 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+ 22:22:19 up  1:22,  1 user,  load average: 0.00, 0.00, 0.00
+
+jonathanconstantine
+
+jonathanconstantine pts/0        2025-12-30 21:00 (51.187.2.129)
+
+ 22:22:19 up  1:22,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
+jonathan          51.187.2.129     21:00   25:03   0.00s  0.02s sshd: jonathanconstantine [priv]
+
+top - 22:22:19 up  1:22,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks: 112 total,   1 running, 111 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :    848.1 total,    226.5 free,    397.9 used,    364.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    450.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   22676  14184   9640 S   0.0   1.6   0:02.18 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.02 kworker+
+     11 root      20   0       0      0      0 I   0.0   0.0   0:00.28 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     16 root      20   0       0      0      0 S   0.0   0.0   0:00.12 ksoftir+
+     17 root      20   0       0      0      0 I   0.0   0.0   0:00.15 rcu_sch+
+     18 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp+
+     19 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp+
+     20 root      rt   0       0      0      0 S   0.0   0.0   0:00.02 migrati+
+     21 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
+     22 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
+     23 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmp+
+     24 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     25 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kauditd
+     26 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungta+
+     27 root      20   0       0      0      0 I   0.0   0.0   0:00.23 kworker+
+     28 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_rea+
+     30 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     31 root      20   0       0      0      0 S   0.0   0.0   0:00.18 kcompac+
+     32 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
+     33 root      39  19       0      0      0 S   0.0   0.0   0:00.12 khugepa+
+     34 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     35 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     36 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     37 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/9-a+
+     38 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     39 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     40 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     41 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     42 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     43 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     44 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     45 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     46 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     47 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     48 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 watchdo+
+     49 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     50 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kswapd0
+     51 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ecryptf+
+     52 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     53 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     54 root      20   0       0      0      0 S   0.0   0.0   0:00.88 hwrng
+     55 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh+
+     56 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     57 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh+
+     58 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     59 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     60 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     61 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     62 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     64 root      20   0       0      0      0 I   0.0   0.0   0:00.51 kworker+
+     66 root      20   0       0      0      0 S   0.0   0.0   0:00.11 hv_ball+
+     67 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     68 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     75 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     77 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     91 root      20   0       0      0      0 S   0.0   0.0   0:00.02 jbd2/sd+
+     92 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    132 root      19  -1   66880  17480  16292 S   0.0   2.0   0:00.31 systemd+
+    153 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    154 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    155 root      20   0       0      0      0 I   0.0   0.0   0:02.40 kworker+
+    193 root      rt   0  288988  27324   8760 S   0.0   3.1   0:00.37 multipa+
+    196 root      20   0   26380   8416   5172 S   0.0   1.0   0:00.15 systemd+
+    210 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
+    318 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    385 root      20   0    3716   2792   2044 S   0.0   0.3   0:00.97 hv_kvp_+
+    417 root      20   0       0      0      0 S   0.0   0.0   0:00.00 jbd2/sd+
+    418 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    493 systemd+  20   0   21588  13068  10760 S   0.0   1.5   0:00.12 systemd+
+    666 systemd+  20   0   19128   9704   8420 S   0.0   1.1   0:00.05 systemd+
+    723 root      20   0       0      0      0 S   0.0   0.0   0:00.00 jbd2/sd+
+    724 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    775 message+  20   0    9884   5692   4728 S   0.0   0.7   0:00.14 dbus-da+
+    780 root      20   0   32420  20788  10556 S   0.0   2.4   0:00.10 network+
+    783 polkitd   20   0  308164   8160   7260 S   0.0   0.9   0:00.17 polkitd
+    787 root      20   0 1775208  41984  23960 S   0.0   4.8   0:00.46 snapd
+    789 root      20   0   17984   8864   7808 S   0.0   1.0   0:00.06 systemd+
+    800 root      20   0  469088  13816  11464 S   0.0   1.6   0:00.10 udisksd
+    801 root      20   0   43964  35320  12292 S   0.0   4.1   0:00.47 python3
+    824 syslog    20   0  222508   6436   4628 S   0.0   0.7   0:00.06 rsyslogd
+    845 _chrony   20   0   11204   3656   2932 S   0.0   0.4   0:01.96 chronyd
+    847 root      20   0    7224   2792   2540 S   0.0   0.3   0:00.01 cron
+    849 _chrony   20   0   11072   1240    636 S   0.0   0.1   0:00.00 chronyd
+    864 root      20   0  110012  23296  13700 S   0.0   2.7   0:00.09 unatten+
+    905 root      20   0  392092  12880  10804 S   0.0   1.5   0:00.09 ModemMa+
+    929 root      20   0    6148   2224   2076 S   0.0   0.3   0:00.00 agetty
+    964 root      20   0    6104   2104   1964 S   0.0   0.2   0:00.18 agetty
+   1050 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1061 root      20   0  412560  35968  12796 S   0.0   4.1   0:04.67 python3
+   1153 root      20   0   12020   8272   7124 S   0.0   1.0   0:00.00 sshd
+   1154 root      20   0   14736  10524   8828 S   0.0   1.2   0:00.02 sshd
+   1157 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
+   1159 jonatha+  20   0   20456  11716   9448 S   0.0   1.3   0:00.18 systemd
+   1160 jonatha+  20   0   21148   3548   1824 S   0.0   0.4   0:00.00 (sd-pam)
+   1288 jonatha+  20   0   14960   7084   5124 S   0.0   0.8   0:08.47 sshd
+   1291 jonatha+  20   0   10248   6652   3724 S   0.0   0.8   0:00.21 bash
+   1577 root      20   0       0      0      0 I   0.0   0.0   0:00.29 kworker+
+   1734 root      20   0       0      0      0 I   0.0   0.0   0:00.04 kworker+
+   1740 root      20   0  599724  63412  38256 S   0.0   7.3   0:01.57 fwupd
+   1912 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1916 jonatha+  20   0    7740   3732   3428 S   0.0   0.4   0:00.00 bash
+   1925 jonatha+  20   0   12360   5552   3424 R   0.0   0.6   0:00.00 top
+
+
+    1  mkdir Music
+    2  cd music
+    3  cd Music
+    4  mkdir Metallica
+    5  cd Metallica
+    6  mkdir And Justice for All
+    7  mkdir Master of Puppets 
+    8  mkdir Metallica
+    9  ls
+   10  cd Master of Puppets
+   11  cd And Justice for all
+   12  cd all
+   13  cd ..
+   14  tree
+   15  cd ..
+   16  tree
+   17  sudo snap install tree
+   18  sudo apt  install tree
+   19  tree
+   20  cd Music/Metallica
+   21  rm dir And Justice for All
+   22  rmdir And Justice for All
+   23  rmdir Master of Puppets Metallica
+   24  tree
+   25  mkdir "And Justice for All"
+   26  mkdir "Master of Puppets"
+   27  mkdir "Metallica (The Black Album)"
+   28  tree
+   29  cd ..
+   30  mkdir Thunder
+   31  mkdir "Wonder Days" "Rip it Up"
+   32  tree
+   33  rmdir "Wonder Days" "Rip it Up"
+   34  cd Thunder
+   35  mkdir "Wonder Days" "Rip it Up"
+   36  cd ..
+   37  cd..
+   38  tree
+   39  cd ..
+   40  tree
+   41  cd Music
+   42  mkdir "The Quireboys"
+   43  cd The Quireboys
+   44  cd "The Quireboys"
+   45  mk dir "A Bit of What You Fancy" "Amazing Disgrace"
+   46  cd.. 
+   47  cd ..
+   48  tree
+   49  cd Music/The Quireboys
+   50  cd Music/"The Quireboys"
+   51  mkdir "A Bit of What You Fancy" "Amazing Disgrace"
+   52  tre
+   53  tree
+   54  cd .. ..
+   55  cd../..
+   56  cd ../..
+   57  tre
+   58  tree
+   59  echo hello world
+   60  echo hello Brian McGinley
+   61  passwd
+   62  date 
+   63  hostname
+   64  arch
+   65  uname a-
+   66  uname -a
+   67  uname --help
+   68  uname 
+   69  uname -s
+   70  uname -o
+   71  uname -s -n -r -v -m -p -i -o
+   72  uname -m
+   73  uname -v
+   74  uname -r
+   75  uname -m
+   76  uname -p
+   77  uname -i
+   78  uname -o
+   79  dmesg | more
+   80  sudo dmesg | more
+   81  dmesg --help
+   82  dmesg(1) --help
+   83  dmesg(1)
+   84  uptime
+   85  uptime [options]
+   86  uptime -p
+   87  uptime -s
+   88  uptime -V
+   89  whoami
+   90  o who
+   91  who
+   92  who --help
+   93  who -a
+   94  who -s
+   95  who -q
+   96  cd Music
+   97  who
+   98  cd ~
+   99  who -T
+  100  who -r
+  101  who -l
+  102  who -p
+  103  who -u
+  104  who -b
+  105  w
+  106  Top
+  107  cd Music/
+  108  Top
+  109  top
+  110  top --help
+  111  top -us
+  112  echo $SHELL
+  113  cd~
+  114  cd ~
+  115  echo $SHELL
+  116  ls
+  117  echo '$SHELL'
+  118  echo "$SHELL"
+  119  echo $SHELL
+  120  echo {con,pre}{sent,fer}{s,ed}  
+  121  echo {con,pre,pos}{sent,fer}{s,ed}  
+  122  echo {"1,","2,"}{"3,","4,"}{"5,","6,"}
+  123  sudo apt update
+  124  man ls
+  125  man who
+  126  who -a
+  127  ls
+  128  man ls
+  129  ls --help
+  130  man who
+  131  s -g
+  132  ls -g
+  133  tree
+  134  man ls
+  135  ls--help
+  136  ls --help
+  137  man who 
+  138  man who
+  139  man man 
+  140  who -?
+  141  who --help
+  142  clear
+  143  cal 2000
+  144  Cal2000
+  145  cal 2000
+  146  sudo apt install ncal
+  147  cal 2000
+  148  cal --help
+  149  man cal
+  150  cal - 3
+  151  cal -3
+  152  man cal 
+  153  cal 9 1752
+  154  ncal 9 1752
+  155  yes please
+  156  man yes
+  157  yes "i love you"
+  158  yes "I love you Niamh"
+  159  time sleep 5
+  160  clear
+  161  yes "I love you Niamh"
+  162  man time sleep
+  163  clear
+  164  time sleep 5
+  165  time sleep 5m
+  166  history
+  167  man history
+  168  echo Jonathan Constantine CATC Project
+  169  echo 
+  170  date
+  171  echo
+  172  hostname
+  173  echo
+  174  arch
+  175  echo
+  176  uname -a
+  177  echo
+  178  uptime
+  179  echo
+  180  whoami
+  181  echo
+  182  who
+  183  echo
+  184  w
+  185  echo
+  186  top -b -n 1
+  187  history
+  188  echo Jonathan Constantine CATC Project > JonathanConstantine.txt #writes or creates the text file. 
+  189  echo >> JonathanConstantine.txt
+  190  date >> JonathanConstantine.txt #appends the date to text file
+  191  echo >> JonathanConstantine.txt
+  192  hostname >> JonathanConstantine.txt
+  193  echo >> JonathanConstantine.txt
+  194  arch >> JonathanConstantine.txt
+  195  echo >> JonathanConstantine.txt
+  196  uname -a >> JonathanConstantine.txt
+  197  echo >> JonathanConstantine.txt
+  198  uptime >> JonathanConstantine.txt
+  199  echo >> JonathanConstantine.txt
+  200  whoami >> JonathanConstantine.txt
+  201  echo >> JonathanConstantine.txt
+  202  who >> JonathanConstantine.txt
+  203  echo >> JonathanConstantine.txt
+  204  w >> JonathanConstantine.txt
+  205  echo >> JonathanConstantine.txt
+  206  top -b -n 1 >> JonathanConstantine.txt
+  207  echo >> JonathanConstantine.txt
+  208  echo >> JonathanConstantine.txt
+  209  history >> JonathanConstantine.txt
