@@ -1,5 +1,5 @@
-Echo JonathanConstantine CATC Project
-Date
+echo JonathanConstantine CATC Project
+date
 hostname
 arch
 uname -a
@@ -7,7 +7,5 @@ uptime
 whoami
 who
 w
-top
-time sleep 5
-q
+top -b -n 1
 history
