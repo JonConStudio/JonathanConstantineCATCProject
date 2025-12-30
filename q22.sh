@@ -19,7 +19,7 @@ echo                                            | tee -a JonathanConstantine.txt
 arch						| tee -a JonathanConstantine.txt #list the architecture
 echo 						| tee -a JonathanConstantine.txt
 echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
-echo Server Infromation				| tee -a JonathanConstantine.txt #HEADER 
+echo Server Information				| tee -a JonathanConstantine.txt #HEADER 
 echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
 echo                                            | tee -a JonathanConstantine.txt
 uname -a 					| tee -a JonathanConstantine.txt #lists the server information  in detail 

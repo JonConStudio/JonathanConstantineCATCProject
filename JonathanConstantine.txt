@@ -2,7 +2,7 @@
 Jonathan Constantine CATC Project
 =======================================
 
-Tue Dec 30 23:19:04 UTC 2025
+Tue Dec 30 23:25:19 UTC 2025
 
 =======================================
 Host Name
@@ -17,7 +17,7 @@ Server Architecture
 x86_64
 
 =======================================
-Users
+Server Information
 =======================================
 
 Linux JonathanConstantineCATC 6.14.0-1017-azure #17~24.04.1-Ubuntu SMP Mon Dec  1 20:10:50 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
@@ -26,7 +26,7 @@ Linux JonathanConstantineCATC 6.14.0-1017-azure #17~24.04.1-Ubuntu SMP Mon Dec  
 Server Uptime
 =======================================
 
- 23:19:05 up  2:19,  1 user,  load average: 0.00, 0.02, 0.00
+ 23:25:19 up  2:25,  1 user,  load average: 0.10, 0.03, 0.01
 
 =======================================
 My User Details
@@ -39,19 +39,19 @@ Who is online
 
 jonathanconstantine pts/0        2025-12-30 21:00 (51.187.2.129)
 
- 23:19:05 up  2:19,  1 user,  load average: 0.00, 0.02, 0.00
+ 23:25:19 up  2:25,  1 user,  load average: 0.10, 0.03, 0.01
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
-jonathan          51.187.2.129     21:00    1:21m  0.00s  0.02s sshd: jonathanconstantine [priv]
+jonathan          51.187.2.129     21:00    1:28m  0.00s  0.02s sshd: jonathanconstantine [priv]
 
 =======================================
 System Resources Overview
 =======================================
 
-top - 23:19:05 up  2:19,  1 user,  load average: 0.00, 0.02, 0.00
-Tasks: 114 total,   1 running, 113 sleeping,   0 stopped,   0 zombie
-%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
-MiB Mem :    848.1 total,    227.8 free,    394.3 used,    366.6 buff/cache     
-MiB Swap:      0.0 total,      0.0 free,      0.0 used.    453.7 avail Mem 
+top - 23:25:19 up  2:25,  1 user,  load average: 0.10, 0.03, 0.01
+Tasks: 112 total,   1 running, 111 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  9.1 sy,  0.0 ni, 90.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :    848.1 total,    227.9 free,    394.1 used,    366.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    454.0 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
       1 root      20   0   22676  14184   9640 S   0.0   1.6   0:02.26 systemd
@@ -66,8 +66,8 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.    453.7 avail Mem
      13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
      15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
-     16 root      20   0       0      0      0 S   0.0   0.0   0:00.17 ksoftir+
-     17 root      20   0       0      0      0 I   0.0   0.0   0:00.21 rcu_sch+
+     16 root      20   0       0      0      0 S   0.0   0.0   0:00.18 ksoftir+
+     17 root      20   0       0      0      0 I   0.0   0.0   0:00.22 rcu_sch+
      18 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp+
      19 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp+
      20 root      rt   0       0      0      0 S   0.0   0.0   0:00.04 migrati+
@@ -80,9 +80,9 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.    453.7 avail Mem
      27 root      20   0       0      0      0 I   0.0   0.0   0:00.43 kworker+
      28 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_rea+
      30 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     31 root      20   0       0      0      0 S   0.0   0.0   0:00.30 kcompac+
+     31 root      20   0       0      0      0 S   0.0   0.0   0:00.31 kcompac+
      32 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
-     33 root      39  19       0      0      0 S   0.0   0.0   0:00.15 khugepa+
+     33 root      39  19       0      0      0 S   0.0   0.0   0:00.16 khugepa+
      34 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      35 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      36 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
@@ -103,7 +103,7 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.    453.7 avail Mem
      51 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ecryptf+
      52 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      53 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-     54 root      20   0       0      0      0 S   0.0   0.0   0:01.41 hwrng
+     54 root      20   0       0      0      0 S   0.0   0.0   0:01.48 hwrng
      55 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh+
      56 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      57 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh+
@@ -119,15 +119,15 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.    453.7 avail Mem
      77 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
      91 root      20   0       0      0      0 S   0.0   0.0   0:00.04 jbd2/sd+
      92 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    132 root      19  -1   66880  17576  16388 S   0.0   2.0   0:00.36 systemd+
+    132 root      19  -1   66880  17584  16396 S   0.0   2.0   0:00.37 systemd+
     153 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     154 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     155 root      20   0       0      0      0 I   0.0   0.0   0:03.12 kworker+
-    193 root      rt   0  288988  27324   8760 S   0.0   3.1   0:00.60 multipa+
+    193 root      rt   0  288988  27324   8760 S   0.0   3.1   0:00.63 multipa+
     196 root      20   0   26380   8416   5172 S   0.0   1.0   0:00.15 systemd+
     210 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
     318 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-    385 root      20   0    3716   2792   2044 S   0.0   0.3   0:01.65 hv_kvp_+
+    385 root      20   0    3716   2792   2044 S   0.0   0.3   0:01.72 hv_kvp_+
     417 root      20   0       0      0      0 S   0.0   0.0   0:00.00 jbd2/sd+
     418 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
     493 systemd+  20   0   21588  13068  10760 S   0.0   1.5   0:00.13 systemd+
@@ -137,12 +137,12 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.    453.7 avail Mem
     775 message+  20   0    9884   5692   4728 S   0.0   0.7   0:00.14 dbus-da+
     780 root      20   0   32420  20788  10556 S   0.0   2.4   0:00.10 network+
     783 polkitd   20   0  308164   8160   7260 S   0.0   0.9   0:00.25 polkitd
-    787 root      20   0 1775208  42004  23960 S   0.0   4.8   0:00.56 snapd
+    787 root      20   0 1775208  42004  23960 S   0.0   4.8   0:00.57 snapd
     789 root      20   0   17984   8864   7808 S   0.0   1.0   0:00.07 systemd+
     800 root      20   0  469088  13816  11464 S   0.0   1.6   0:00.10 udisksd
     801 root      20   0   43964  35320  12292 S   0.0   4.1   0:00.47 python3
     824 syslog    20   0  222508   6440   4628 S   0.0   0.7   0:00.07 rsyslogd
-    845 _chrony   20   0   11204   3656   2932 S   0.0   0.4   0:03.29 chronyd
+    845 _chrony   20   0   11204   3656   2932 S   0.0   0.4   0:03.44 chronyd
     847 root      20   0    7224   2792   2540 S   0.0   0.3   0:00.01 cron
     849 _chrony   20   0   11072   1240    636 S   0.0   0.1   0:00.00 chronyd
     864 root      20   0  110012  23296  13700 S   0.0   2.7   0:00.09 unatten+
@@ -150,24 +150,22 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.    453.7 avail Mem
     929 root      20   0    6148   2224   2076 S   0.0   0.3   0:00.00 agetty
     964 root      20   0    6104   2104   1964 S   0.0   0.2   0:00.18 agetty
    1050 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   1061 root      20   0  412560  35980  12796 S   0.0   4.1   0:07.30 python3
+   1061 root      20   0  412560  35980  12796 S   0.0   4.1   0:07.59 python3
    1153 root      20   0   12020   8272   7124 S   0.0   1.0   0:00.04 sshd
    1154 root      20   0   14736  10524   8828 S   0.0   1.2   0:00.02 sshd
    1157 root      -2   0       0      0      0 S   0.0   0.0   0:00.00 psimon
    1159 jonatha+  20   0   20456  11716   9448 S   0.0   1.3   0:00.18 systemd
    1160 jonatha+  20   0   21148   3548   1824 S   0.0   0.4   0:00.00 (sd-pam)
-   1288 jonatha+  20   0   14960   7084   5124 S   0.0   0.8   0:18.25 sshd
-   1291 jonatha+  20   0   10248   6712   3784 S   0.0   0.8   0:00.35 bash
-   1577 root      20   0       0      0      0 I   0.0   0.0   0:00.93 kworker+
-   1740 root      20   0  599724  63412  38256 S   0.0   7.3   0:01.72 fwupd
-   2003 root      20   0       0      0      0 I   0.0   0.0   0:00.09 kworker+
-   2017 root      20   0       0      0      0 I   0.0   0.0   0:00.11 kworker+
-   2096 root      20   0       0      0      0 I   0.0   0.0   0:00.11 kworker+
-   2360 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   2378 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
-   2406 jonatha+  20   0    7872   3656   3336 S   0.0   0.4   0:00.01 bash
-   2502 jonatha+  20   0   12360   5552   3420 R   0.0   0.6   0:00.00 top
-   2503 jonatha+  20   0    6120   1916   1796 S   0.0   0.2   0:00.00 tee
+   1288 jonatha+  20   0   14960   7084   5124 S   0.0   0.8   0:19.27 sshd
+   1291 jonatha+  20   0   10248   6712   3784 S   0.0   0.8   0:00.39 bash
+   1577 root      20   0       0      0      0 I   0.0   0.0   0:01.08 kworker+
+   1740 root      20   0  599724  63412  38256 S   0.0   7.3   0:01.74 fwupd
+   2003 root      20   0       0      0      0 I   0.0   0.0   0:00.12 kworker+
+   2017 root      20   0       0      0      0 I   0.0   0.0   0:00.13 kworker+
+   2096 root      20   0       0      0      0 I   0.0   0.0   0:00.15 kworker+
+   2710 jonatha+  20   0    7872   3780   3432 S   0.0   0.4   0:00.01 bash
+   2806 jonatha+  20   0   12360   5540   3412 R   0.0   0.6   0:00.00 top
+   2807 jonatha+  20   0    6120   1912   1796 S   0.0   0.2   0:00.00 tee
 
 =======================================
 Command History
@@ -544,3 +542,111 @@ Command History
   369  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
   370  echo 						| tee -a JonathanConstantine.txt
   371  history 					| tee -a JonathanConstantine.txt #lists all commands made by this user
+  372  echo ======================================= 	| tee JonathanConstantine.txt #over-writes or creates the text file. 
+  373  echo    Jonathan Constantine CATC Project    	| tee -a JonathanConstantine.txt #A title for the report
+  374  echo ======================================= 	| tee -a JonathanConstantine.txt #creating a header to differentiate the output  
+  375  echo                                         	| tee -a JonathanConstantine.txt #SPACE
+  376  echo Date & date                               	| tee -a JonathanConstantine.txt #Date Header with date appended                        
+  377  echo                                            | tee -a JonathanConstantine.txt #SPACE
+  378  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  379  echo Host Name 					| tee -a JonathanConstantine.txt 
+  380  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  381  echo                                            | tee -a JonathanConstantine.txt
+  382  hostname 					| tee -a JonathanConstantine.txt #hostname command
+  383  echo 						| tee -a JonathanConstantine.txt
+  384  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  385  echo Server Architecture                        | tee -a JonathanConstantine.txt #HEADER
+  386  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  387  echo                                            | tee -a JonathanConstantine.txt
+  388  arch						| tee -a JonathanConstantine.txt #list the architecture
+  389  echo 						| tee -a JonathanConstantine.txt
+  390  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  391  echo Server Infromation				| tee -a JonathanConstantine.txt #HEADER 
+  392  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  393  echo                                            | tee -a JonathanConstantine.txt
+  394  uname -a 					| tee -a JonathanConstantine.txt #lists the server information  in detail 
+  395  echo 						| tee -a JonathanConstantine.txt #SPACE
+  396  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  397  echo Server Uptime                              | tee -a JonathanConstantine.txt #HEADER
+  398  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  399  echo 						| tee -a JonathanConstantine.txt 
+  400  uptime 						| tee -a JonathanConstantine.txt #prints server details
+  401  echo 						| tee -a JonathanConstantine.txt
+  402  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  403  echo My User Details                            | tee -a JonathanConstantine.txt 
+  404  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  405  whoami 						| tee -a JonathanConstantine.txt #lists my logged in user details
+  406  echo 						| tee -a JonathanConstantine.txt
+  407  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  408  echo Who is online                              | tee -a JonathanConstantine.txt
+  409  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  410  echo                                            | tee -a JonathanConstantine.txt
+  411  who 						| tee -a JonathanConstantine.txt #who commannd (who  is online)
+  412  echo 						| tee -a JonathanConstantine.txt
+  413  w 						| tee -a JonathanConstantine.txt #w command, more detailed, tabular view
+  414  echo						| tee -a JonathanConstantine.txt
+  415  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  416  echo System Resources Overview                  | tee -a JonathanConstantine.txt 
+  417  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  418  echo					        | tee -a JonathanConstantine.txt
+  419  top -b -n 1 					| tee -a JonathanConstantine.txt #prints system resources
+  420  echo 						| tee -a JonathanConstantine.txt
+  421  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  422  echo Command History				| tee -a JonathanConstantine.txt #DIVIDER
+  423  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  424  echo 						| tee -a JonathanConstantine.txt
+  425  history 					| tee -a JonathanConstantine.txt #lists all commands made by this user
+  426  echo ======================================= 	| tee JonathanConstantine.txt #over-writes or creates the text file. 
+  427  echo    Jonathan Constantine CATC Project    	| tee -a JonathanConstantine.txt #A title for the report
+  428  echo ======================================= 	| tee -a JonathanConstantine.txt #creating a header to differentiate the output  
+  429  echo                                         	| tee -a JonathanConstantine.txt #SPACE
+  430  echo Date & date                               	| tee -a JonathanConstantine.txt #Date Header with date appended                        
+  431  echo                                            | tee -a JonathanConstantine.txt #SPACE
+  432  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  433  echo Host Name 					| tee -a JonathanConstantine.txt 
+  434  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  435  echo                                            | tee -a JonathanConstantine.txt
+  436  hostname 					| tee -a JonathanConstantine.txt #hostname command
+  437  echo 						| tee -a JonathanConstantine.txt
+  438  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  439  echo Server Architecture                        | tee -a JonathanConstantine.txt #HEADER
+  440  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  441  echo                                            | tee -a JonathanConstantine.txt
+  442  arch						| tee -a JonathanConstantine.txt #list the architecture
+  443  echo 						| tee -a JonathanConstantine.txt
+  444  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  445  echo Server Information				| tee -a JonathanConstantine.txt #HEADER 
+  446  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  447  echo                                            | tee -a JonathanConstantine.txt
+  448  uname -a 					| tee -a JonathanConstantine.txt #lists the server information  in detail 
+  449  echo 						| tee -a JonathanConstantine.txt #SPACE
+  450  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  451  echo Server Uptime                              | tee -a JonathanConstantine.txt #HEADER
+  452  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  453  echo 						| tee -a JonathanConstantine.txt 
+  454  uptime 						| tee -a JonathanConstantine.txt #prints server details
+  455  echo 						| tee -a JonathanConstantine.txt
+  456  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  457  echo My User Details                            | tee -a JonathanConstantine.txt 
+  458  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  459  whoami 						| tee -a JonathanConstantine.txt #lists my logged in user details
+  460  echo 						| tee -a JonathanConstantine.txt
+  461  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  462  echo Who is online                              | tee -a JonathanConstantine.txt
+  463  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  464  echo                                            | tee -a JonathanConstantine.txt
+  465  who 						| tee -a JonathanConstantine.txt #who commannd (who  is online)
+  466  echo 						| tee -a JonathanConstantine.txt
+  467  w 						| tee -a JonathanConstantine.txt #w command, more detailed, tabular view
+  468  echo						| tee -a JonathanConstantine.txt
+  469  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  470  echo System Resources Overview                  | tee -a JonathanConstantine.txt 
+  471  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  472  echo					        | tee -a JonathanConstantine.txt
+  473  top -b -n 1 					| tee -a JonathanConstantine.txt #prints system resources
+  474  echo 						| tee -a JonathanConstantine.txt
+  475  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  476  echo Command History				| tee -a JonathanConstantine.txt #DIVIDER
+  477  echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
+  478  echo 						| tee -a JonathanConstantine.txt
+  479  history 					| tee -a JonathanConstantine.txt #lists all commands made by this user
