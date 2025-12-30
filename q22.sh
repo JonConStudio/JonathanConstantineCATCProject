@@ -52,5 +52,5 @@ echo 						| tee -a JonathanConstantine.txt
 echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
 echo Command History				| tee -a JonathanConstantine.txt #DIVIDER
 echo =======================================    | tee -a JonathanConstantine.txt #DIVIDER
-echo >> JonathanConstantine.txt
-history >> JonathanConstantine.txt
+echo 						| tee -a JonathanConstantine.txt
+history 					| tee -a JonathanConstantine.txt #lists all commands made by this user
