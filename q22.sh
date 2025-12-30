@@ -1,12 +1,10 @@
-HISTFILE=~/.bash_histo
-ry
+HISTFILE=~/.bash_history
 set -o history
 echo ======================================= 	> JonathanConstantine.txt #over-writes or creates the text file. 
 echo    Jonathan Constantine CATC Project    	>> JonathanConstantine.txt 
 echo ======================================= 	>> JonathanConstantine.txt #creating a header to differentiate the output  
 echo                                         	>> JonathanConstantine.txt #SPACE
-echo Date                                    	>> JonathanConstantine.txt #Date Header 
-date                                         	>> JonathanConstantine.txt #appends the date to text file
+echo Date & date                               	>> JonathanConstantine.txt #Date Header with date appended                        
 echo                                         	>> JonathanConstantine.txt #SPACE
 echo =======================================    >> JonathanConstantine.txt #DIVIDER
 echo Host Name 					>> JonathanConstantine.txt 
@@ -29,6 +27,7 @@ echo 						>> JonathanConstantine.txt #SPACE
 echo =======================================    >> JonathanConstantine.txt #DIVIDER
 echo Server Uptime                              >> JonathanConstantine.txt #HEADER
 echo =======================================    >> JonathanConstantine.txt #DIVIDER
+echo 						>> JonathanConstantine.txt 
 uptime 						>> JonathanConstantine.txt
 echo 						>> JonathanConstantine.txt
 echo =======================================    >> JonathanConstantine.txt #DIVIDER
