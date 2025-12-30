@@ -1,4 +1,6 @@
-echo JonathanConstantine CATC Project
+HISTFILE=~/.bash_history
+set -o history
+echo Jonathan Constantine CATC Project
 echo 
 date
 echo
